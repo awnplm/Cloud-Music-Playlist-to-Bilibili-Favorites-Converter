@@ -19,15 +19,18 @@ pip install keyboard
 
 ### 必须配置
 
-CDriverPath = r"D:\system\driver\..."  # ChromeDriver可执行文件路径
-sspath = r"D:\learn\python..."  # 验证码截图保存目录
-tlusername = ""  # 图灵验证码API用户名
-tlpassword = ""  # 图灵验证码API密码
-tlId = "08272733"  # 图灵验证码API的ID，使用类型12
-username = ""  # B站登录账号（手机号）
-password = ""  # B站登录密码
-userpath = r"user-data-dir=C:\Users\rubbish\AppData\Local\Google\Chrome\User Data"  # Chrome用户数据目录（保持登录状态）
-favoritesName="听"  # 目标收藏夹名称
+| 配置项 | 示例值 | 说明 |
+|--------|--------|------|
+| `CDriverPath` | `r"D:\system\driver\chromedriver-win64\chromedriver.exe"` | ChromeDriver可执行文件路径 |
+| `sspath` | `r"D:\learn\python\garbage\practices\bilibili\screenshot"` | 验证码截图保存目录 |
+| `tlusername` | `"your_api_username"` | 图灵验证码API用户名 |
+| `tlpassword` | `"your_api_password"` | 图灵验证码API密码 |
+| `tlId` | `"08272733"` | 图灵验证码API的ID |
+| `username` | `"your_phone_number"` | B站登录账号（手机号） |
+| `password` | `"your_password"` | B站登录密码 |
+| `userpath` | `r"user-data-dir=D:\system\selenium_profile"` | Chrome用户数据目录（保持登录状态） |
+| `favoritesName` | `"听"` | 目标收藏夹名称 |
+| `song` | `"nothing"` | 当前处理的歌曲信息（初始值） |
 
 
 ## 歌曲数据格式
